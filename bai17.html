@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('thu nhập một tháng');
+    if (a<5) {
+        document.write('thuế thu nhâp =',a*0.05);
+    } else if (a<10) {
+        document.write('thuế thu nhập =',a*0.1);
+    } else if (a<18) {
+        document.write('thuế thu nhập =', a * 0.15);
+    } else if (a<32) {
+        document.write('thuế thu nhập =', a * 0.2);
+    }  else if (a<52) {
+        document.write('thuế thu nhập =', a * 0.25);
+    } else if (a<80) {
+        document.write('thuế thu nhập =', a * 0.3);
+    } else {
+        document.write('thuế thu nhập =', a * 0.35);
+    }
+</script>
+</body>
+</html>

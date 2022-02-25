@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('nhập vào a');
+    let b = prompt('nhập vào b');
+    let c = prompt('nhập vào c');
+    let d =b*b - 4*a*c;
+    let x=(-b)/2*a;
+    let x1=(-b+Math.sqrt(d))/(2*a);
+    let x2=(-b-Math.sqrt(d))/(2*a);
+    if (d<0) {
+        document.write('phương trình vô nghiệm');
+    } else if (d==0) {
+        document.write('Phương trình có nghiệm kép x1=x2=',x)
+    } else {
+        document.write('phương trình có nghiệm x1=',x1)
+        document.write(' x2=',x2)
+    }
+</script>
+</body>
+</html>
